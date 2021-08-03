@@ -1,0 +1,11 @@
+[33mcommit 9dd63e03a4a386075af57dde30949f153cabb80d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/setError[m[33m, [m[1;32msetError[m[33m)[m
+Author: Vish <vishvajitravalji@gmail.com>
+Date:   Tue Aug 3 15:22:34 2021 -0400
+
+    error handling on fetching json data
+
+[33mcommit 6732ac33b0fd7899c99f4835838a976b7770bc38[m[33m ([m[1;31morigin/useEffect[m[33m, [m[1;32museEffect[m[33m)[m
+Author: Vish <vishvajitravalji@gmail.com>
+Date:   Tue Aug 3 14:45:33 2021 -0400
+
+    useEffect
