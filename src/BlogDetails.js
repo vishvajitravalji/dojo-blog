@@ -4,11 +4,11 @@ import useFetch from './useFetch';
 const BlogDetails = () => {
 
     const { id } = useParams();
-    const { data:blog, error , isPending} = useFetch('https://dojo-app-react.herokuapp.com/api/'+ id);
+    const { data:blog, error , isPending} = useFetch('https://my-json-server.typicode.com/vishvajitravalji/react-playground-json/blogs/'+ id);
     const history = useHistory();
 
     const deleteHandle = () => {
-        fetch('https://dojo-app-react.herokuapp.com/api/'+ blog.id, {
+        fetch('https://my-json-server.typicode.com/vishvajitravalji/react-playground-json/blogs/'+ blog.id, {
             method: 'DELETE'
         }).then(() => {
             history.push('/');

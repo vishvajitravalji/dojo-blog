@@ -16,7 +16,7 @@ const Create = () => {
 
         setIsPending(true);
 
-        fetch('https://dojo-app-react.herokuapp.com/api/', {
+        fetch('https://my-json-server.typicode.com/vishvajitravalji/react-playground-json/blogs/', {
                 method: 'POST',
                 headers: {"Content-Type" : "application/json"},
                 body: JSON.stringify(blog)
