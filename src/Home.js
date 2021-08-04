@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
 
 const Home = () => {
  
-  const{data:blogs, isPending, error} = useFetch('https://dojo-app-react.herokuapp.com/api');
+  const{data:blogs, isPending, error} = useFetch('https://dojo-app-react.herokuapp.com/api/');
   
   return (
     <div className="home">
