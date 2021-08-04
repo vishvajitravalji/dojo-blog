@@ -16,7 +16,7 @@ const Create = () => {
 
         setIsPending(true);
 
-        fetch('http://localhost:8000/blogs/', {
+        fetch('https://dojo-app-react.herokuapp.com/api', {
                 method: 'POST',
                 headers: {"Content-Type" : "application/json"},
                 body: JSON.stringify(blog)

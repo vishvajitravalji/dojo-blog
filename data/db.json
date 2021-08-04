@@ -35,6 +35,12 @@
       "body": "lorem",
       "author": "yoshi",
       "id": 7
+    },
+    {
+      "title": "test",
+      "body": "test",
+      "author": "mario",
+      "id": 8
     }
   ]
 }
